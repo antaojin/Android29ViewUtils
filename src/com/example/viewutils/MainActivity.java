@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	@Deprecated
 	@ViewInject(R.id.tv1)
-	private TextView xxxxxxHello22222xxxx;
+	private TextView xxxxxxHello2222233333333333xxxx;
 	
 	private boolean isTrue;
 
@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 	@Deprecated
 	@OnClick(R.id.btn1)
 	private void clickeMe(View view){
-		Toast.makeText(this, "我被点了", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "我被点了3333", Toast.LENGTH_SHORT).show();
 	}
 	
 
