@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	@Deprecated
 	@ViewInject(R.id.tv1)
-	private TextView xxxxxxHelloxxxx;
+	private TextView xxxxxxHello22222xxxx;
 	
 	private boolean isTrue;
 
