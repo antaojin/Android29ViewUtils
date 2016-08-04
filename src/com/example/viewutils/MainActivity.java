@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	@Deprecated
 	@ViewInject(R.id.tv1)
-	private TextView xxxxxx你好xxxx;
+	private TextView xxxxxxHelloxxxx;
 	
 	private boolean isTrue;
 
@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		ViewUtils.inject(this);
-		Log.d("tag", "textView="+xxxxxx你好xxxx.getText());
+		Log.d("tag", "textView="+xxxxxxHelloxxxx.getText());
 	}
 	@Deprecated
 	@OnClick(R.id.btn1)
